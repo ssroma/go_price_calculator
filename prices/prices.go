@@ -20,7 +20,7 @@ func (job TaxIncludedPriceJob) Process() {
 
 func NewTaxIncludedPriceJob(taxRate float64) *TaxIncludedPriceJob {
 	return &TaxIncludedPriceJob{
-		InputPrices: []float64{10, 20, 30},
+		InputPrices: []float64{10, 20, 30, 40},
 		TaxRate:     taxRate,
 	}
 }
